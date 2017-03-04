@@ -34,3 +34,18 @@ $navbar-default-bg: black;
 .btn-xlarge {
   background-color: black;
 }
+
+footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+
+}
+
+footer a:hover{
+  color: #222;
+}
+footer small {
+  float: left;
+}
