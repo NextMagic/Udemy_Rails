@@ -9,8 +9,10 @@ class ArticlesController < ApplicationController
   def edit
   end
   def create
+    debugger
     #render plain: params[:article].inspect
     @article = Article.new(article_params)
+    @article.user = User.first
     #@article.save
     #redirect_to articles_path(@article)
     if @article.save
